@@ -2,19 +2,19 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        brandGreen: "#0d3b2e",
-        brandGold: "#d4af37"
+        brandGreen: "#013220", // Ayurvedic Green
+        brandGold: "#d4af37",  // Golden Text
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
-        serif: ["Playfair Display", "serif"]
-      }
-    }
+        sans: ["Noto Sans Devanagari", "sans-serif"],
+        serif: ["Merriweather", "serif"],
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
