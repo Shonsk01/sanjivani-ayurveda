@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-brandGreen text-white font-sans;
+  @apply bg-brandGreen text-brandGold font-sans;
 }
 
 h1, h2, h3, h4 {
